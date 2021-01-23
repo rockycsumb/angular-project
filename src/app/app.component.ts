@@ -9,5 +9,10 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
- 
+    loadedPage = 'recipes';
+	
+	onNavigate(selection: string){
+		console.log('from app component ', selection);
+		this.loadedPage = selection;
+	}
 }
