@@ -15,6 +15,8 @@ const routes: Routes = [
 
 //whats parlay
 
+// parlay
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
