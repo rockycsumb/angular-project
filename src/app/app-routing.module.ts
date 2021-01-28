@@ -13,6 +13,8 @@ const routes: Routes = [
 
 // from goorm comment 1
 
+// from goorm comment 1 conflict
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
