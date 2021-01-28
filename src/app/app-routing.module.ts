@@ -13,6 +13,8 @@ const routes: Routes = [
 
 // hello puppet
 
+// parlay
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
