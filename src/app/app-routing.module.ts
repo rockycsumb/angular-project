@@ -11,11 +11,7 @@ const routes: Routes = [
 	{path: 'recipes', component: RecipesComponent}
 ];
 
-// hello puppet
-
-//whats parlay
-
-// parlay
+// from goorm comment 1
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
