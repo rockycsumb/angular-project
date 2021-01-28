@@ -28,7 +28,8 @@ import {DropdownDirective} from './shared/dropdown.directive';
   imports: [
     BrowserModule,
     AppRoutingModule,
-	FormsModule
+	FormsModule,
+	AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
