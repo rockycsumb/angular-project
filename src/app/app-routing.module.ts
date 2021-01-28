@@ -11,11 +11,7 @@ const routes: Routes = [
 	{path: 'recipes', component: RecipesComponent}
 ];
 
-// from goorm comment 1
-
-// from goorm comment 1 conflict
-
-// from vS code comment 1
+// deleted all comments
 
 
 @NgModule({
