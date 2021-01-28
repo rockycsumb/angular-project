@@ -11,6 +11,8 @@ const routes: Routes = [
 	{path: 'recipes', component: RecipesComponent}
 ];
 
+// hello puppet
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
