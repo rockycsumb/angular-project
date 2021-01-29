@@ -1,6 +1,9 @@
-<a 
-	style="cursor: pointer"
-   class="list-group-item clearfix" 
+<a
+  [routerLink]="[index]"
+  style="cursor: pointer"
+  class="list-group-item clearfix"
+  routerLinkActive="active"
+
    >
 	<div class="list-group-item-text" >
 		<h4 class="list-group-item-heading" #recipeName>
@@ -10,10 +13,10 @@
 			{{recipe.description}}
 		</p>
 		<span class="">
-			<img 
+			<img
 				 [src]= "recipe.imagePath"
-				 alt="" 
-				 class="img-responsive float-right" 
+				 alt=""
+				 class="img-responsive float-right"
 				 style="max-height: 50px;"
 				 >
 		</span>
