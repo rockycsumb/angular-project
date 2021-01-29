@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
 	selector: 'app-header',
@@ -8,13 +8,5 @@ import { Component, EventEmitter, Output } from '@angular/core';
 
 export class HeaderComponent {
 	collapsed: boolean = true;
-	
-	@Output() linkSelection = new EventEmitter<string>();
-	
-	onSelect(selection: string){
-		// console.log('header ', selection);
 		
-		this.linkSelection.emit(selection);
-	}
-	
 }
